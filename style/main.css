@@ -1,0 +1,258 @@
+:root {
+    --main-color: #cecdd2;
+    --main-color2: #545353cc;
+    --main-vio: #868ae0;
+    --main-bg: #fefaf6;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.bg-main {
+    background-color: var(--main-bg);
+}
+
+.text-main {
+    color: var(--main-color) !important;
+}
+
+.text-main2 {
+    color: var(--main-color2) !important;
+}
+
+nav {
+    background-color: #141415d5;
+}
+
+nav button {
+    border-color: var(--main-color);
+    transition: background-color 1s, border-color 1s, color 1s !important;
+}
+
+nav .nav-link {
+    transition: color 0.3s;
+}
+
+nav .nav-link:hover {
+    color: var(--main-vio) !important;
+}
+
+nav button:hover {
+    border-color: var(--main-vio) !important;
+    background-color: var(--main-vio) !important;
+    color: #fff !important;
+}
+
+header h1 {
+    font-size: 3.5rem;
+}
+
+header .header-content .btn {
+    padding: 0.5rem 5rem;
+}
+
+header .header-content .btn1 {
+    background-color: #ff8a91;
+    border-color: #ff8a92d2 !important;
+    transition: background-color 1s, border-color 1s;
+}
+
+header .header-content .btn1:hover {
+    background-color: #d67278;
+    border-color: #ff8a92d2 !important;
+}
+
+header .header-content .btn2 {
+    background-color: #ffe8d8;
+    border-color: #f5c2a3 !important;
+    transition: background-color 1s, border-color 1s;
+}
+
+header .header-content .btn2:hover {
+    background-color: #c3b2a6;
+    border-color: #f5c2a3 !important;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+#our-specialty .card1 i {
+    width: 90px;
+    height: 90px;
+    background-color: #ac91ed;
+}
+
+#our-specialty .card2 i {
+    width: 90px;
+    height: 90px;
+    background-color: #92eb88;
+}
+
+#our-specialty .card3 i {
+    width: 90px;
+    height: 90px;
+    background-color: #ff9f9e;
+}
+
+#our-specialty .card {
+    border: none;
+    background-color: #ffefe4 !important;
+    box-shadow: 2px 10px 10px 0#ffe7d7, -2px 0px 10px 5px#ffe7d7;
+    /* #ffe7d7 */
+}
+
+#about .card i {
+    width: 90px;
+    height: 90px;
+    /* background-color: #ff8a91; */
+    background: linear-gradient(135deg, #ff8a91, #f7cdc7);
+}
+
+#about .card {
+    border: none;
+    background-color: #ffefe4 !important;
+    box-shadow: 2px 10px 10px 0#ffe7d7, -2px 0px 10px 5px#ffe7d7;
+}
+
+#plans .plans-title h2 {
+    font-size: 3rem;
+}
+
+#plans .row {
+    width: 90% !important;
+}
+
+#plans h3 {
+    font-size: 2.5rem;
+}
+
+#plans span {
+    font-size: 4rem;
+}
+
+#plans p {
+    font-size: 1.25rem;
+}
+
+#plans button {
+    background-color: #e5b492;
+    padding: 0.75rem 5rem;
+    border: none;
+    transition: background-color 1s;
+}
+
+#plans button:hover {
+    background-color: #ae8568;
+}
+
+#plans .plan {
+    background-color: #ffe6d5;
+    box-shadow: 2px 10px 15px 0#e8d1c3, -2px 0px 15px 2px#ead3c4 !important;
+}
+
+#plans .sp-plan {
+    transform: scale(1.05, 1.05);
+    background-color: #ffefe4 !important;
+}
+
+#plans .sp-plan button {
+    background-color: #f9d1b7 !important;
+}
+
+#plans .sp-plan button:hover {
+    background-color: #ae8568 !important;
+}
+
+#contact h2 {
+    font-size: 3rem;
+}
+
+#contact p {
+    font-size: 1.25rem;
+}
+
+#contact input {
+    border-color: #ff8a91;
+}
+
+#contact .input-group button {
+    border-color: #ff8a91 !important;
+    color: #ff8a91 !important;
+}
+
+#contact textarea {
+    border-color: #ff8a91 !important;
+}
+
+#contact .contact-button button {
+    background-color: #ff8a91;
+    transition: background-color 1s;
+}
+
+#contact .contact-button button:hover {
+    background-color: #9d5055;
+}
+
+.footer-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffd4d6;
+}
+
+footer {
+    background-color: #ffe5d5;
+}
+
+
+
+
+
+
+@media screen and (max-width:1400px) {
+    header .header-content .btn {
+        padding: 0.4rem 4rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    header .header-content .btn {
+        padding: 0.4rem 3rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .header-content h1 {
+        font-size: 2.5rem;
+    }
+
+    header .header-content .btn {
+        padding: 0.4rem 2rem;
+    }
+
+    #our-specialty {
+        text-align: center;
+    }
+
+    #our-specialty img {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header-img {
+        text-align: center;
+    }
+
+    .header-img img {
+        width: 75% !important;
+    }
+
+    header .header-content .btn {
+        padding: 0.5rem 3rem !important;
+    }
+}
